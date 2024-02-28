@@ -21,27 +21,27 @@
                         <div class="inputbox">
                             <div class="icon"><i class="fa-solid fa-envelope"></i></div>
                             <input type="email" id="email" required>
-                            <label for="email">E-postadress:</label>
+                            <label for="email">E-postadress</label>
                         </div>
                         <div class="inputbox">
                             <div class="icon"><i class="fa-solid fa-lock"></i></div>
                             <input type="password" id="password" required>
-                            <label for="password">Lösenord:</label>
+                            <label for="password">Lösenord</label>
                         </div>
                         <div class="inputbox">
                             <div class="icon"><i class="fa-solid fa-phone"></i></div>
-                            <input type="phone" id="phone" required>
-                            <label for="phone">Telefonnummer:</label>
+                            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <label for="phone">Telefonnummer (123-456-7899)</label>
                         </div>
                         <div class="inputbox">
                             <div class="icon"><i class="fa-solid fa-lock"></i></div>
                             <input type="password" id="password" required>
-                            <label for="password">Upprepa lösenord:</label>
+                            <label for="password">Upprepa lösenord</label>
                         </div>
                         <div class="dropdown">
-                            <select name="shoesize" id="shoesize">
+                            <select name="shoesize" id="shoesize" required>
                                 <div class="test">
-                                    <option>Skostorlek..</option>
+                                    <option value="">Skostorlek..</option>
                                     <option value="30">Storlek 30</option>
                                     <option value="31">Storlek 31</option>
                                     <option value="32">Storlek 32</option>
@@ -60,7 +60,7 @@
                             <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
                             <label for="newsletter">Jag vill ha nyhetsbrev</label>
                             
-                            <input type="checkbox" id="TermsOfUse" name="TermsOfUse" value="TermsOfUse">
+                            <input type="checkbox" id="TermsOfUse" name="TermsOfUse" value="TermsOfUse" required>
                             <label for="TermsOfUse">Jag godkänner användarvillkoren</label>
                         </div>
                         <div>
