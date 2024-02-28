@@ -7,13 +7,16 @@ html, body {
     height: 100%;
     margin: 0;
 }
+body {
+    
+}
 section {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(61, 58, 58);
+    background-image: url("../images/maldivesbeach.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -73,6 +76,20 @@ input:valid~label {
 .checkbox-wrapper label {
     color: #fff;
     margin-top: 10px;
+}
+.checkbox-wrapper {
+    margin: 0 0 10px 0;
+}
+#button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 
